@@ -3,7 +3,15 @@
     opacity:1;
     
 }
-.div3{
+ .div4{
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid #85E3FF;
+    background-color: bisque;
+    padding:10px
+
+}
+/* .div3{
     display: flex;
     justify-content: space-between;
     border: 5px solid #85E3FF;
@@ -24,7 +32,7 @@
 .div1{
     display: flex;
     justify-content:flex-end;
-  }
+  } */
 
   .smallDiv{
     border: 5px solid #85E3FF;
