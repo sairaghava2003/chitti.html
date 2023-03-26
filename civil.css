@@ -41,3 +41,41 @@
 
 }
 
+
+.mainDivision{
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.subdivision11{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  border: 5px solid yellow;
+  padding: 10px;
+}
+.subdivision21{
+  display:flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  visibility: hidden;
+  padding: 10px;
+}
+.subdivision12{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  visibility: hidden;
+}
+.subdivision22{
+  display:flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  border: 5px solid yellow;
+  padding: 10px;
+}
