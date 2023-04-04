@@ -1,3 +1,11 @@
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 #sai1,#sai2,#sai3,#sai4{
     background-color: yellow;
     opacity:1;
@@ -61,8 +69,9 @@
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  border: 5px solid yellow;
+  border: 5px solid #90F1EF;
   padding: 10px;
+  background-color:#E7FFAC;
 }
 .subdivision21{
   display:flex;
@@ -71,6 +80,7 @@
   align-items: center;
   visibility: hidden;
   padding: 10px;
+  background-color:#E7FFAC;
 }
 .subdivision12{
   display:flex;
@@ -78,12 +88,42 @@
   flex-direction: row;
   align-items: center;
   visibility: hidden;
+  padding: 10px;
+  background-color: #EFFFC5;
 }
 .subdivision22{
   display:flex;
   justify-content: flex-end;
   flex-direction: row;
   align-items: center;
-  border: 5px solid yellow;
+  border: 5px solid #90F1EF;
   padding: 10px;
+  background-color: #EFFFC5;
+}
+.bgImage{
+  background: url("./108.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(3px);
+  height: 250vh;
+  /* background-attachment: fixed; */
+  background-position-y: center;
+}
+.bodyText{
+  z-index: 10;
+  top: 0;
+  position: absolute;
+  padding: 0rem 2rem 0rem 2rem;
+}
+
+@media  screen and (max-width: 900px) and (min-width : 500px)  {
+  .bgImage{
+    background: url("./108.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(10px);
+    height: 130vh;
+   background-position-x: center;
+  }
+  
 }
